@@ -1,5 +1,5 @@
 FROM python
-WORKDIR ./src
+WORKDIR /src
 COPY python.py .
 RUN pip install flask
 EXPOSE 5500
