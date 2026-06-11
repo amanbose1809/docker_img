@@ -5,4 +5,4 @@ app=Flask(__name__)
 def root():
     return "flask app running on port:5500 of python"
 
-app.run(port=5500,host="0.0.0.0",debug=True)
+app.run(port=5500,host="0.0.0.0")
